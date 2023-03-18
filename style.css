@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+.form{
+    display: flex;
+    width: 1032px;
+    height: 98px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 8px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 11px;
+    margin-top: 300px;
+    margin-left: 200px;
+    align-items: center;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-control .name{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #873EFF;
+    margin-left: 18px;
+}
+
+.form-control .name-input{
+    width: 120px;
+    border: none;
+    border-bottom: 2px solid #873EFF;
+    margin-left: 18px;
+}
+
+.form-control .email{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #873EFF;
+    margin-left: 25px;
+}
+
+.form-control .email-input{
+    width: 120px;
+    border: none;
+    border-bottom: 2px solid #873EFF;
+    margin-left: 25px;
+}
+
+.form-control .mobile-number{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #873EFF;
+    margin-left: 25px;
+}
+
+.form-control .mobile-number-input{
+    width: 120px;
+    border: none;
+    border-bottom: 2px solid #873EFF;
+    margin-left: 25px;
+}
+
+.form-control .travel-date{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #873EFF;
+    margin-left: 25px;
+}
+
+.form-control .travel-date-input{
+    width: 120px;
+    border: none;
+    border-bottom: 2px solid #873EFF;
+    margin-left: 25px;
+}
+
+.form-control .no-of-travelers{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #873EFF;
+    margin-left: 25px;
+    margin-top: -40px;
+}
+
+.form-control .no-of-adults{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #873EFF;
+    margin-left: -148px;
+    line-height: 25px;
+}
+
+.form-control .no-of-adults-input{
+    width: 120px;
+    border: none;
+    border-bottom: 2px solid #873EFF;
+    margin-left: -148px;
+}
+
+.form-control .no-of-child{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #873EFF;
+   
+    line-height: 25px;
+}
+
+.form-control .no-of-child-input{
+    width: 120px;
+    border: none;
+    border-bottom: 2px solid #873EFF;
+   
+}
+
+.form-control .submit-button{
+    background: linear-gradient(270deg, #A32FFF -52.94%, #4526FF 242.65%);
+    margin-left: 25px;
+    width: 100px;
+    height: 45px;
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    .form{
+        width: 250px;
+        height: 530px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 50px;
+        margin-top: 90px; 
+    }
+
+    .form-control{
+        align-items: center;
+    }
+
+    .form-control .no-of-travelers{
+        margin-top: 5px;
+    }
+
+    .form-control .no-of-adults{
+        margin-left: 10px;
+    }
+
+    .form-control .no-of-adults-input{
+        margin-left: 10px ;
+    }
+}
